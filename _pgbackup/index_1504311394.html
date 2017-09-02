@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 
+ 1) I need to toggle gifs between play and stop
+ 2) Lastly I need to style the page in Pinegrow-->
+    <head>
+        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta name="description" content="Jhay Davis is a fortune 500 leader with 15 years experience in both technical IT development as well as marketing planning and strategy.">
+        <meta name="keywords" content="Jhay Davis,CTO,Full Stack, MERN Stack, App Development, Dallas TX, jQuery, Javascript, Node.js, Java, MySQL, MongoDB">
+        <meta name="author" content="Jhay Davis">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jhay's 10 Ten GIPHY Loader</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <div class="container">
+        <body>
+            <div class="jumbotron text-center">
+                <h1>Jhay's Top 10 Gifs!</h1>
+                <p>See the top 10 GIPHYs here! Click on a button to see the best GIPHYs in that category, or create your own category and button!.</p>
+            </div>
+            <h2 >Current GIPHY Favs</h2>
+            <div id="buttons-view" class="btn primary text-capitalize text-primary" ></div>
+            <form id="gif-form" >
+                <label for="gif-input">Add your Gif Category :</label>
+                <input type="text" id="gif-input" placeholder="Enter GIPHY to search">
+                <input id="add-gif" type="submit" value="Go!">
+            </form>
+            <hr>
+            <div class="well" style="text-align: center">
+                <div id="gifs-appear-here"> </div>
+            </div>
+            <!--Start Scripts-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="assets/js/myGifScript.js"></script>
+            <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        </body>
+    </div>
+</html>
